@@ -1,0 +1,48 @@
+# Python
+
+**pycache**/
+*.py[cod]
+
+# Virtual environment
+
+.venv/
+venv/
+
+# Input videos
+
+Input/*.mp4
+Input/*.avi
+Input/*.mov
+
+# Generated output videos
+
+Output/*.mp4
+
+# Generated event evidence
+
+Output/events/
+
+# Generated database files
+
+Dashboard/*.csv
+database/*.csv
+
+# YOLO model files
+
+Models/*.pt
+
+# Environment / secrets
+
+.env
+*.env
+
+# IDE
+
+.vscode/
+# Large input files
+Input/*.zip
+
+# Generated/output images
+Output/*.jpg
+Output/*.jpeg
+Output/*.png
